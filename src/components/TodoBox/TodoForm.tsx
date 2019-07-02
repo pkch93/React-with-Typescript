@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Dispatch } from 'react';
 
 import styled from 'styled-components';
 
@@ -24,12 +24,14 @@ const Button = styled.button<{ color: string }>`
 
 interface TodoFormProps {
     color: string;
+    add: Dispatch<string>;
+    content: string
 }
 
-const TodoForm: React.FC<TodoFormProps> = ({ color }) => (
+const TodoForm: React.FC<TodoFormProps> = ({ color, add, content }) => (
     <Wrapper>
         <Input type="text" placeholder="할 일을 입력하세요!"/>
-        <Button color={color} type="submit">Todo</Button>
+        <Button color={color} type="submit" onClick={() => add(content)}>Todo</Button>
     </Wrapper>
 );
 

@@ -15,7 +15,7 @@ const TodoText = styled.h3<{ complete: boolean }>`
     text-decoration: ${({ complete }) => complete ? "line-through" : "none"};
 `;
 
-interface Todo {
+export interface Todo {
     complete: boolean;
     content: string;
 }
