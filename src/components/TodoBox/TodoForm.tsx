@@ -19,6 +19,7 @@ const Button = styled.button<{ color: string }>`
     width: 20%;
     margin-right: 2%;
     font-size: 20px;
+    cursor: pointer;
 `;
 
 interface TodoFormProps {
