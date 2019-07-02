@@ -8,9 +8,6 @@
     ],
     "baseUrl": "src",
     "allowJs": false,
-    "paths": {
-      "@components": ["/components/*"],
-    },
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
