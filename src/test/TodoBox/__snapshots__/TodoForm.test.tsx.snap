@@ -2,12 +2,17 @@
 
 exports[`<TodoForm /> matches snapshot 1`] = `
 <div>
-  <div>
+  <div
+    class="sc-bdVaJa ivgsgg"
+  >
     <input
+      class="sc-bwzfXH eEIFdd"
       placeholder="할 일을 입력하세요!"
       type="text"
     />
     <button
+      class="sc-htpNat eOtgLR"
+      color="#66d9e8"
       type="submit"
     >
       Todo
