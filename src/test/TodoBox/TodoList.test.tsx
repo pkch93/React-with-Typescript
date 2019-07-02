@@ -10,7 +10,10 @@ describe('<TodoList />', () => {
     });
 
     it('render one todo', () => {
-        const todo = ['go to seoul'];
+        const todo = [{
+            complete: true,
+            content: 'go to seoul'
+        }];
         const mock = render(<TodoList todo={todo} />);
 
         mock.getByText("go to seoul");
