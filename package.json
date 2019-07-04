@@ -11,6 +11,7 @@
     "@types/react-redux": "^7.1.1",
     "@types/redux-actions": "^2.6.1",
     "@types/styled-components": "^4.1.16",
+    "dotenv": "^8.0.0",
     "jest-dom": "^3.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
